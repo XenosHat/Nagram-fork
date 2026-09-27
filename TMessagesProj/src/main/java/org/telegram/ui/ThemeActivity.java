@@ -703,10 +703,6 @@ public class ThemeActivity extends BaseFragment implements NotificationCenter.No
 
             otherHeaderRow = rowCount++;
             directShareRow = rowCount++;
-            TL_account.contentSettings contentSettings = getMessagesController().getContentSettings();
-            if (contentSettings != null && contentSettings.sensitive_can_change) {
-                sensitiveContentRow = rowCount++;
-            }
             sendByEnterRow = rowCount++;
             distanceRow = rowCount++;
             otherSectionRow = rowCount++;
